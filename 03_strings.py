@@ -1,5 +1,5 @@
 # Strings
-
+"""
 my_new_string = "Hello, World!"
 print(my_new_string)
 
@@ -35,3 +35,31 @@ print("124".isnumeric())
 print(language.lower())
 print(language.lower().isupper())
 print(language.upper().startswith("PY"))
+
+"""
+
+text = "Aprendiendo Python"
+print(len(text))
+
+test, text2 = "Hola", "Python"
+print(test + " " + text2)
+
+salto = "Hola\nPython"
+print(salto)
+
+name, last_name, age = "Andres Gael", "Flores Romero", 22
+print(f"Mi nombre es {name} {last_name} y mi edad es {age}")
+
+a, b, c, d, e, f = text2
+print(a, b, c, d, e, f)
+text_slice = text2[3:8]
+print(text_slice)
+
+print(text2[::-1])
+
+print(text.upper())
+
+print(text.count("n"))
+
+cadena = "12345"
+print(cadena.isnumeric())

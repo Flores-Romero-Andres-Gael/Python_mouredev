@@ -1,6 +1,6 @@
 # Listas
 
-my_list = [10, 20, 30, 40, 50]
+"""my_list = [10, 20, 30, 40, 50]
 my_other_list = list()
 
 print(len(my_list))
@@ -60,7 +60,48 @@ print(my_list)
 print(my_list[1:4])
 my_list_ejemplo = [3,1,2]
 my_list_ejemplo.sort()
-print(my_list_ejemplo)
+print(my_list_ejemplo)"""
 
 """my_list = "Hola Python"
 print(my_list)"""
+
+_list = [1, 2, 3, 4, 5]
+list2 = [10, 20, 30, 40, 50]
+
+print(list2[2])
+
+_list.append(6)
+print(_list)
+
+list2.insert(2, 15)
+print(list2)
+
+list2.insert(3, 30)
+print(list2)
+list2.remove(30)
+print(list2)
+
+delete = _list.pop(5)
+print(_list)
+a = delete
+print(a)
+
+list3 = [100, 200, 300, 400, 500]
+print(list3)
+list3.reverse()
+print(list3)
+
+list4 = [3, 4, 6, 8, 1, 0, 2, 5, 9, 7]
+print(list4)
+list4.sort()
+print(list4)
+
+list5 = [1, 2, 3, 4, 5]
+list6 = [6, 7, 8, 9, 10]
+
+list_new = list5 + list6
+print(list_new)
+
+my_sublist = list2[0:4]
+print(list2)
+print(my_sublist)
